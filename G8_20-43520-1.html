@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<form action="myForm.php" method="post" autocomplete="off" target="blank" novalidate="on">
+		<h1>REIGSTRATION FORM</h1>
+		 <LEGEND>General</LEGEND>   
+	    
+		 <fieldset>
+		 	<br>
+
+		 <label for="fname">First Name:</label>
+	    <input type="text" name="firstname">
+	    	<br>
+	    <br>
+
+	    <label for="fname">Last Name:</label>
+	      <input type="text" name="lastname">
+	    <br>
+	    <br>
+	    
+	    <h3>Gender</h3>
+	    <input type="radio" id = "gender" name="gender" value="male">Male
+	    
+	    <input type="radio" id = "gender" name="gender" value="female">Female
+	    <br>
+	    <br>
+	     </fieldset>
+	     <br>
+	     <br>
+    	 <LEGEND>Contact</LEGEND>   
+    	<fieldset>
+    	<label for="email">Email: </label>
+    		<input type="email" name="email" id="email" required>
+ 		<br>
+	    
+	     
+ 		
+	   		<br>
+	   		<label for="number">Mobile No: </label>
+	    <input type="number" name="number" id="number" required>
+	    </fieldset>
+			<br>
+	    <br>
+	    <fieldset>
+	    	 <br>
+	    <LEGEND>Address</LEGEND>
+	    <label for="address">Street/House,Road:</label>
+	    <input type="text" name="address">
+	    <br>
+	     <br>
+	   
+ 		  
+ 		   <label for="fname">Country:</label>
+ 		
+ 			<select id ="country" name="="country"> 
+ 		<option value="Bangladesh">Bangladesh</option>
+ 		<option value="Pakistan">Pakistan</option>
+ 		<option value="UK">UK</option>
+ 		</select>
+	 		 </fieldset>
+	 		 <input type="submit" name ="submit"value="submit" >
+</form></body>
+	
+</html>
